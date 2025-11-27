@@ -4,7 +4,7 @@ This project implements automated GitOps installation and management for IBM Clo
 
 ## Features
 - Automated the Non-OLM installation method for CP4D/Software Hub and Cartrigdes managed by ArgoCD for continuous integration and delivery. 
-- Developed based on [IBMSoftwareHub/charts/tree/5.2.0](https://github.ibm.com/IBMSoftwareHub/charts/tree/5.2.0) and restructure as layers (cluster scoped, namespace scoped, cartridge) for clean management.
+- Developed based on [IBMSoftwareHub/charts/tree/5.3.0](https://github.ibm.com/IBMSoftwareHub/charts/tree/5.3.0) and restructure as layers (cluster scoped, namespace scoped, cartridge) for clean management.
 - Pluggable enable/disable for any cartridge.
 - Parameterisation and automatic variable substitution, making it easy to adapt to different environments and team collaboration
 
@@ -19,7 +19,7 @@ This project implements automated GitOps installation and management for IBM Clo
 |cert-manager-operator (for Red Hat OpenShift)|1.17.0|Software Hub|
 |ibm-rabbitmq-operator|1.0.50|OpenPages|
 |ibm-db2uoperator|7.3.0|OpenPages|
-|ibm-db2aaservice|5.2.0|OpenPages|
+|ibm-db2aaservice|5.3.0|OpenPages|
 |ibm-ccs|11.0.0|Cognos Analytics, watsonx.ai|
 |ibm-opensearch-operator|1.1.2494|Cognos Analytics, watsonx.ai|
 |ibm-datarefinery|11.0.0|watsonx.ai|
@@ -77,7 +77,7 @@ If you are using a [Techzone environment](https://techzone.ibm.com/collection/te
 
 6. Any further changes (including enabling/disabling cartridges by commenting/uncommenting their resources in `kustomization.yaml` after Software Hub installation is completed) should be committed and pushed to your Git repository directly. ArgoCD will automatically detect and synchronise all changes from Git. Installation will likely take over 1 hours or more depending on the number of services enabled
 
-7. To enable watsonx.ai, please make sure you have done the prerequisite for watsonx.ai https://www.ibm.com/docs/en/software-hub/5.2.x?topic=cluster-installing-prerequisite-software, and uncommenting the resource `3-cartridge/watsonx-ai` in `kustomization.yaml` to start the synchronisation of watsonx.ai resources.
+7. To enable watsonx.ai, please make sure you have done the prerequisite for watsonx.ai https://www.ibm.com/docs/en/software-hub/5.3.x?topic=cluster-installing-prerequisite-software, and uncommenting the resource `3-cartridge/watsonx-ai` in `kustomization.yaml` to start the synchronisation of watsonx.ai resources.
 
 
 ## Development Guide

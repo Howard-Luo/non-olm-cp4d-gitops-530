@@ -23,7 +23,7 @@ spec:
           operatorNamespace: gitops-operator
           instanceNamespace: gitops-instance
           tetheredNamespaces: []
-          releaseVersion: 5.2.0
+          releaseVersion: 5.3.0
           blockStorageClass: ocs-external-storagecluster-ceph-rbd
           fileStorageClass: ocs-external-storagecluster-cephfs
           imagePullPrefix: icr.io

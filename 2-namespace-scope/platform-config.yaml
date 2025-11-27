@@ -20,7 +20,7 @@ spec:
       valuesObject:
         global:
           licenseAccept: true
-          releaseVersion: 5.2.0
+          releaseVersion: 5.3.0
           operatorNamespace: gitops-operator
           instanceNamespace: gitops-instance
           imagePullPrefix: icr.io

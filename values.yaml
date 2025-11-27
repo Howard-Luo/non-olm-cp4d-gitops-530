@@ -1,6 +1,6 @@
 global:
   
-  argoSourceRepoURL: https://github.com/gitops-cp4d/non-olm-cp4d-gitops.git
+  argoSourceRepoURL: https://github.com/Howard-Luo/non-olm-cp4d-gitops-530.git
 
   operatorNS: gitops-operator
   instanceNS: gitops-instance
@@ -11,52 +11,40 @@ global:
   imagePullPrefix: icr.io
   imagePullSecret: ibm-entitlement-key
   argocdNS: openshift-gitops
-  helmRepoURL: https://gitops-cp4d.github.io/non-olm-cp4d-gitops/repos
+  helmRepoURL: https://github.com/Howard-Luo/non-olm-cp4d-gitops-530/repos
   installConfigImageDigest: "sha256:f97f1b364a27acfe08b1c80d9ce91c25f07e6005a7ba821abf164c8e38925a04"
 
   cpd-platform-cluster:
     chart: cpd-platform-cluster-scoped
-    version: 5.2.0+20250516.013559.108
+    version: 5.3.0+20251122.143747.124
   cs-cluster:
     chart: ibm-common-service-operator-cluster-scoped
-    version: 4.13.0+20250527.133754.0
+    version: 4.16.0+20251107.123839.0
   im-cluster:
     chart: ibm-iam-operator-cluster-scoped
-    version: 4.12.0+20250527.133754.0
-  planning-analytics-cluster:
-    chart: planning-analytics-cluster-scoped
-    version: 5.2.0+20250604.210250.1608
+    version: 4.15.0+20251111.110850.0
   postgresql-cluster:
     chart: postgresql-cluster-scoped
-    version: 5.17.0+20250618.084143.22
+    version: 5.30.0+20251030.094351.108
   zen-cluster:
     chart: zen-cluster-scoped
-    version: 6.2.0+20250530.152516.232
+    version: 6.3.0+20251122.162557.333
   ibm-licensing-cluster:
-    chart: ibm-licensing-cluster-scoped
-    version: 4.2.16+20250604.153216.0
+    chart: ibm-license-service-cluster-scoped
+    version: 4.2.16+20250528.101036.0
 
   cs:
     chart: ibm-common-service-operator
-    version: 4.13.0+20250527.133754.0
+    version: 4.16.0+20251107.123839.0
   im:
     chart: ibm-iam-operator
-    version: 4.12.0+20250527.133754.0
+    version: 4.15.0+20251111.110850.0
   postgresql:
     chart: postgresql
-    version: 5.17.0+20250618.084143.22
+    version: 5.30.0+20251030.094351.108
   zen:
     chart: zen
-    version: 6.2.0+20250517.171311.226
+    version: 6.3.0+20251122.162557.333
   cpd-platform:
     chart: cpd-platform
-    version: 5.2.0+20250516.013559.108
-  planning-analytics:
-    chart: planning-analytics
-    version: 5.2.0+20250604.210250.1608.split
-  planning-analytics-instance:
-    chart: planning-analytics-instance
-    version: 5.2.0+20250604.210250.1608
-  platform-config:
-    chart: platform-config
-    version: 5.2.0+20250402.154803.5
+    version: 5.3.0+20251122.143747.124

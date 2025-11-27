@@ -1,5 +1,0 @@
-apiVersion: v2
-name: ibm-cpd-wsl-helm
-type: application
-version: 0.1.0
-appVersion: "11.0.0"

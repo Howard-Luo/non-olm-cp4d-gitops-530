@@ -29,7 +29,7 @@ spec:
           imagePullPrefix: cp.icr.io
           imagePullSecret: ibm-entitlement-key
           installConfigImageDigest: sha256:53f6b5487363e47f00ae3879e861062a460df0f6ffab57ea077da34a1b678563
-          installConfigImageName: cpopen/cpd/olm-utils-v3
+          installConfigImageName: cpopen/cpd/olm-utils-v4
   project: default
   syncPolicy:
     automated:

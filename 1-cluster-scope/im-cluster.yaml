@@ -12,7 +12,7 @@ spec:
     namespace: default
     server: https://kubernetes.default.svc
   source:
-    repoURL: https://github.com/Howard-Luo/non-olm-cp4d-gitops-530/repos
+    repoURL: https://howard-luo.github.io/non-olm-cp4d-gitops-530/repos
     targetRevision: 4.15.0+20251111.110850.0
     chart: ibm-iam-operator-cluster-scoped
     helm:

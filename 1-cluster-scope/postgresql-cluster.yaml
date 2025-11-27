@@ -20,7 +20,7 @@ spec:
     server: https://kubernetes.default.svc
   source:
     path: ''
-    repoURL: https://github.com/Howard-Luo/non-olm-cp4d-gitops-530/repos
+    repoURL: https://howard-luo.github.io/non-olm-cp4d-gitops-530/repos
     targetRevision: 5.30.0+20251030.094351.108
     chart: postgresql-cluster-scoped
     helm:

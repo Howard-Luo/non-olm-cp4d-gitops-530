@@ -44,7 +44,11 @@ global:
     version: 5.30.0+20251030.094351.108
   zen:
     chart: zen
-    version: 6.3.0+20251122.162557.333
+    version: 6.3.0+20251120.181620.331
   cpd-platform:
     chart: cpd-platform
     version: 5.3.0+20251122.143747.124
+
+
+## "Repository": "cp.icr.io/cp/cpd/olm-utils-premium-v4"
+## sha256:53f6b5487363e47f00ae3879e861062a460df0f6ffab57ea077da34a1b678563

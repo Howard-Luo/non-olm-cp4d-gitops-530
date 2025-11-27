@@ -32,39 +32,39 @@ if ! oc whoami &>/dev/null; then
 fi
 print_log "SUCCESS" "Logged in as: $(oc whoami)"
 
-## Variables replace
-print_log "INFO" "Replacing placeholders in YAML files using values.yaml ..."
+# ## Variables replace
+# print_log "INFO" "Replacing placeholders in YAML files using values.yaml ..."
 
-cd "$(dirname "$0")"
-PROJECT_ROOT="$(cd .. && pwd)"
-VALUES_FILE="$PROJECT_ROOT/values.yaml"
-TMP_KV=".__flattened_kv.tmp"
+# cd "$(dirname "$0")"
+# PROJECT_ROOT="$(cd .. && pwd)"
+# VALUES_FILE="$PROJECT_ROOT/values.yaml"
+# TMP_KV=".__flattened_kv.tmp"
 
-if [ ! -f "$VALUES_FILE" ]; then
-  print_log "ERROR" "Cannot find $VALUES_FILE"
-  exit 1
-fi
+# if [ ! -f "$VALUES_FILE" ]; then
+#   print_log "ERROR" "Cannot find $VALUES_FILE"
+#   exit 1
+# fi
 
-yq eval '.global | to_entries | .[] | select(.value | tag != "!!map") | "\(.key)=\(.value)"' "$VALUES_FILE" > "$TMP_KV"
-yq eval '.global | to_entries | .[] | select(.value | tag == "!!map") | . as $root | .value | to_entries | .[] | "\($root.key)-\(.key)=\(.value)"' "$VALUES_FILE" >> "$TMP_KV"
+# yq eval '.global | to_entries | .[] | select(.value | tag != "!!map") | "\(.key)=\(.value)"' "$VALUES_FILE" > "$TMP_KV"
+# yq eval '.global | to_entries | .[] | select(.value | tag == "!!map") | . as $root | .value | to_entries | .[] | "\($root.key)-\(.key)=\(.value)"' "$VALUES_FILE" >> "$TMP_KV"
 
-declare -a kvs
-while IFS='=' read -r k v; do
-  [ -z "$k" ] && continue
-  kvs+=("$k=$v")
-done < "$TMP_KV"
+# declare -a kvs
+# while IFS='=' read -r k v; do
+#   [ -z "$k" ] && continue
+#   kvs+=("$k=$v")
+# done < "$TMP_KV"
 
-find "$PROJECT_ROOT" \( -name "*.yaml" -o -name "*.yml" \) | while read -r file; do
-  [[ "$file" == "$VALUES_FILE" || "$file" == "$0" ]] && continue
-  for kv in "${kvs[@]}"; do
-    k="${kv%%=*}"
-    v="${kv#*=}"
-    perl -pi -e "s#\\\${$k}#$v#g" "$file"
-  done
-done
+# find "$PROJECT_ROOT" \( -name "*.yaml" -o -name "*.yml" \) | while read -r file; do
+#   [[ "$file" == "$VALUES_FILE" || "$file" == "$0" ]] && continue
+#   for kv in "${kvs[@]}"; do
+#     k="${kv%%=*}"
+#     v="${kv#*=}"
+#     perl -pi -e "s#\\\${$k}#$v#g" "$file"
+#   done
+# done
 
-rm -f "$TMP_KV"
-print_log "SUCCESS" "All parameter placeholders have been replaced."
+# rm -f "$TMP_KV"
+# print_log "SUCCESS" "All parameter placeholders have been replaced."
 
 # Set Argo CD source Git repo URL
 # echo "==> Enter the Argo CD application source Git repo URL:"
@@ -73,22 +73,22 @@ print_log "SUCCESS" "All parameter placeholders have been replaced."
 # rm -f ../cp4d-gitops.yaml.bak
 # print_log "SUCCESS" "Updated cp4d-gitops.yaml with repoURL: $REPO_URL"
 
-# Commit and push changes to Git 
-echo "==> Would you like to commit and push the YAML changes now? (y/n):"
-read -r PUSH_NOW
-if [[ "$PUSH_NOW" =~ ^[Yy]$ ]]; then
-  REPO_ROOT="$(cd .. && pwd)"
-  cd "$REPO_ROOT"
-  git add .
-  if git diff --cached --quiet; then
-    print_log "INFO" "No changes to commit."
-  else
-    git commit -m "Bootstrap script: set repo URL and replaced variables"
-    git push
-    print_log "SUCCESS" "Changes committed and pushed to Git."
-  fi
-  cd - >/dev/null
-fi
+# # Commit and push changes to Git 
+# echo "==> Would you like to commit and push the YAML changes now? (y/n):"
+# read -r PUSH_NOW
+# if [[ "$PUSH_NOW" =~ ^[Yy]$ ]]; then
+#   REPO_ROOT="$(cd .. && pwd)"
+#   cd "$REPO_ROOT"
+#   git add .
+#   if git diff --cached --quiet; then
+#     print_log "INFO" "No changes to commit."
+#   else
+#     git commit -m "Bootstrap script: set repo URL and replaced variables"
+#     git push
+#     print_log "SUCCESS" "Changes committed and pushed to Git."
+#   fi
+#   cd - >/dev/null
+# fi
 
 # Apply custom resources
 oc apply -f custom-health-checks.yaml

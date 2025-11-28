@@ -50,5 +50,62 @@ global:
     version: 5.3.0+20251122.143747.124
 
 
+  ccs:
+    chart: ccs
+    version: 12.0.0+20251122.012657.332
+  ccs-cluster:
+    chart: ccs-cluster-scoped
+    version: 12.0.0+20251122.012657.332
+
+  datarefinery:
+    chart: datarefinery
+    version: 12.0.0+20251120.211953.156
+  datarefinery-cluster:
+    chart: datarefinery-cluster-scoped
+    version: 12.0.0+20251120.211953.156
+
+  opensearch:
+    chart: opencontent-opensearch
+    version: 1.1.4009+20250905.120936
+  opensearch-cluster:
+    chart: opencontent-opensearch-cluster-scoped
+    version: 1.1.4009+20250905.120936
+
+  watsonx-ai:
+    chart: watsonx-ai
+    version: 12.0.0+20251121.170045.60
+  watsonx-ai-cluster:
+    chart: watsonx-ai-cluster-scoped
+    version: 12.0.0+20251121.170045.60
+
+  watsonx-ai-ifm:
+    chart: watsonx-ai-ifm
+    version: 12.0.0+20251126.133633.241
+  watsonx-ai-ifm-cluster:
+    chart: watsonx-ai-ifm-cluster-scoped
+    version: 12.0.0+20251126.133633.241
+
+  wml:
+    chart: wml
+    version: 12.0.0+20251124.092058.329
+  wml-cluster:
+    chart: wml-cluster-scoped
+    version: 12.0.0+20251124.092058.329
+
+  ws:
+    chart: ws
+    version: 12.0.0+20251121.170036.55
+  ws-cluster:
+    chart: ws-cluster-scoped
+    version: 12.0.0+20251121.170036.55
+
+  ws-runtimes:
+    chart: ws-runtimes
+    version: 12.0.0+20251120.153644.24
+  ws-runtimes-cluster:
+    chart: ws-runtimes-cluster-scoped
+    version: 12.0.0+20251120.153644.24
+
+
 ## "Repository": "cp.icr.io/cp/cpd/olm-utils-premium-v4"
 ## sha256:53f6b5487363e47f00ae3879e861062a460df0f6ffab57ea077da34a1b678563

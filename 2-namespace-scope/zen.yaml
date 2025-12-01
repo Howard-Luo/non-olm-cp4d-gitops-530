@@ -1,8 +1,8 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: zen-${appSuffix}
-  namespace: ${argocdNS}
+  name: zen-gitops
+  namespace: openshift-gitops
   labels:
     scope: namespace
     product: software-hub
@@ -19,22 +19,22 @@ spec:
     server: https://kubernetes.default.svc
   source:
     path: ''
-    repoURL: ${helmRepoURL}
-    targetRevision: ${zen-version}
-    chart: ${zen-chart}
+    repoURL: https://howard-luo.github.io/non-olm-cp4d-gitops-530/repos
+    targetRevision: 6.3.0+20251120.181620.331
+    chart: zen
     helm:
       valuesObject:
         global:
           licenseAccept: true
-          operatorNamespace: ${operatorNS}
-          instanceNamespace: ${instanceNS}
-          blockStorageClass: ${blockStorageClass}
-          fileStorageClass: ${fileStorageClass}
-          imagePullPrefix: ${imagePullPrefix}
-          imagePullSecret: ${imagePullSecret}
-          installConfigImageDigest: ${installConfigImageDigest}
-          installConfigImageName: cpopen/cpd/olm-utils-v3
-          releaseVersion: 5.2.0
+          operatorNamespace: gitops-operator
+          instanceNamespace: gitops-instance
+          blockStorageClass: ocs-external-storagecluster-ceph-rbd
+          fileStorageClass: ocs-external-storagecluster-cephfs
+          imagePullPrefix: icr.io
+          imagePullSecret: ibm-entitlement-key
+          installConfigImageDigest: sha256:53f6b5487363e47f00ae3879e861062a460df0f6ffab57ea077da34a1b678563
+          installConfigImageName: cpopen/cpd/olm-utils-v4
+          releaseVersion: 5.3.0
   project: default
   syncPolicy:
     automated:

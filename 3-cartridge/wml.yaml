@@ -33,7 +33,7 @@ spec:
           imagePullPrefix: icr.io
           imagePullSecret: ibm-entitlement-key
         wml:
-          scaleConfig: "small"
+          deployCR: false
   project: default
   syncPolicy:
     automated:

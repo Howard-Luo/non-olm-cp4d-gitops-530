@@ -20,7 +20,7 @@ spec:
   source:
     path: ''
     repoURL: https://howard-luo.github.io/non-olm-cp4d-gitops-530/repos
-    targetRevision: 12.0.0+20251126.133633.241
+    targetRevision: 12.0.0+20251128.202845.243
     chart: watsonx-ai-ifm
     helm:
       valuesObject:

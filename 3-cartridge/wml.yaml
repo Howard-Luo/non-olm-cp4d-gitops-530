@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: zen-${appSuffix}
+  name: wml-${appSuffix}
   namespace: ${argocdNS}
   labels:
     scope: namespace
@@ -20,8 +20,8 @@ spec:
   source:
     path: ''
     repoURL: ${helmRepoURL}
-    targetRevision: ${zen-version}
-    chart: ${zen-chart}
+    targetRevision: ${wml-version}
+    chart: ${wml-chart}
     helm:
       valuesObject:
         global:
@@ -32,9 +32,6 @@ spec:
           fileStorageClass: ${fileStorageClass}
           imagePullPrefix: ${imagePullPrefix}
           imagePullSecret: ${imagePullSecret}
-          installConfigImageDigest: ${installConfigImageDigest}
-          installConfigImageName: cpopen/cpd/olm-utils-v3
-          releaseVersion: 5.2.0
   project: default
   syncPolicy:
     automated:

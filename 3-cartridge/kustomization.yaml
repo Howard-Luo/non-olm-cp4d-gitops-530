@@ -1,0 +1,17 @@
+resources:
+  - ccs-cluster.yaml
+  - ccs.yaml
+  - datarefinery-cluster.yaml
+  - datarefinery.yaml
+  - opensearch-cluster.yaml
+  - opensearch.yaml
+  - watsonx-ai-cluster.yaml
+  - watsonx-ai.yaml
+  - watsonx-ai-ifm-cluster.yaml
+  - watsonx-ai-ifm.yaml
+  - wml-cluster.yaml
+  - wml.yaml
+  - ws-runtimes-cluster.yaml
+  - ws-runtimes.yaml
+  - ws-cluster.yaml
+  - ws.yaml

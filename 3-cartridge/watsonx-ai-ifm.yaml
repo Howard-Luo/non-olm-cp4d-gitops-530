@@ -32,6 +32,7 @@ spec:
           fileStorageClass: ocs-external-storagecluster-cephfs
           imagePullPrefix: icr.io
           imagePullSecret: ibm-entitlement-key
+          scaleConfig: "small"
   project: default
   syncPolicy:
     automated:

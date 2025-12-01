@@ -1,8 +1,8 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: opensearch-${appSuffix}
-  namespace: ${argocdNS}
+  name: opensearch-gitops
+  namespace: openshift-gitops
   labels:
     scope: namespace
     product: software-hub
@@ -19,19 +19,19 @@ spec:
     server: https://kubernetes.default.svc
   source:
     path: ''
-    repoURL: ${helmRepoURL}
-    targetRevision: ${opensearch-version}
-    chart: ${opensearch-chart}
+    repoURL: https://howard-luo.github.io/non-olm-cp4d-gitops-530/repos
+    targetRevision: 1.1.4009+20250905.120936
+    chart: opencontent-opensearch
     helm:
       valuesObject:
         global:
           licenseAccept: true
-          operatorNamespace: ${operatorNS}
-          instanceNamespace: ${instanceNS}
-          blockStorageClass: ${blockStorageClass}
-          fileStorageClass: ${fileStorageClass}
-          imagePullPrefix: ${imagePullPrefix}
-          imagePullSecret: ${imagePullSecret}
+          operatorNamespace: gitops-operator
+          instanceNamespace: gitops-instance
+          blockStorageClass: ocs-external-storagecluster-ceph-rbd
+          fileStorageClass: ocs-external-storagecluster-cephfs
+          imagePullPrefix: icr.io
+          imagePullSecret: ibm-entitlement-key
   project: default
   syncPolicy:
     automated:

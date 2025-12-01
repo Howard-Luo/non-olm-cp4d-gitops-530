@@ -1,8 +1,8 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: ws-runtimes-cluster-${appSuffix}
-  namespace: ${argocdNS}
+  name: ws-runtimes-cluster-gitops
+  namespace: openshift-gitops
   labels:
     scope: cluster
     product: software-hub
@@ -13,13 +13,13 @@ spec:
     server: https://kubernetes.default.svc
   source:
     path: ''
-    repoURL: ${helmRepoURL}
-    targetRevision: ${ws-runtimes-cluster-version}
-    chart: ${ws-runtimes-cluster-chart}
+    repoURL: https://howard-luo.github.io/non-olm-cp4d-gitops-530/repos
+    targetRevision: 12.0.0+20251120.153644.24
+    chart: ws-runtimes-cluster-scoped
     helm:
       valuesObject:
         global:
-          operatorNamespace: ${operatorNS}
+          operatorNamespace: gitops-operator
   project: default
   syncPolicy:
     automated:

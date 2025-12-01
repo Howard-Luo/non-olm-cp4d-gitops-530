@@ -80,7 +80,7 @@ global:
 
   watsonx-ai-ifm:
     chart: watsonx-ai-ifm
-    version: 12.0.0+20251126.133633.241
+    version: 12.0.0+20251128.202845.243
   watsonx-ai-ifm-cluster:
     chart: watsonx-ai-ifm-cluster-scoped
     version: 12.0.0+20251126.133633.241

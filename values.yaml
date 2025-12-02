@@ -32,6 +32,10 @@ global:
   ibm-licensing-cluster:
     chart: ibm-license-service-cluster-scoped
     version: 4.2.16+20250528.101036.0
+  ibm-licensing:
+    chart: ibm-license-service
+    version: 4.2.16+20250528.101036.0
+
 
   cs:
     chart: ibm-common-service-operator

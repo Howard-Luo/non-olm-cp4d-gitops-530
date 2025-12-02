@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: ibm-license-gitops
+  name: ibm-licensing-gitops
   namespace: openshift-gitops
   labels:
     scope: namespace

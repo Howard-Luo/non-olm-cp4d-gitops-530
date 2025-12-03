@@ -15,5 +15,5 @@ resources:
   - ws-runtimes.yaml
   - ws-cluster.yaml
   - ws.yaml
-  # - redis-cp-cluster.yaml
-  # - redis-cp.yaml
+  - redis-cp-cluster.yaml
+  - redis-cp.yaml

@@ -7,4 +7,4 @@ resources:
   - zen.yaml
   - rh-cm.yaml
   - ibm-licensing.yaml
-  # - post-installation.yaml
+  - post-installation.yaml

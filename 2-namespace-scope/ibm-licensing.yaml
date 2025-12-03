@@ -24,6 +24,8 @@ spec:
     chart: ibm-license-service
     helm:
       valuesObject:
+        namespace: gitops-instance
+        watchNamespace: gitops-instance
         global:
           imagePullPrefix: icr.io
           imagePullSecret: ibm-entitlement-key

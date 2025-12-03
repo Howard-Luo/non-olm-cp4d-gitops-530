@@ -4,7 +4,7 @@ global:
 
   operatorNS: gitops-operator
   instanceNS: gitops-instance
-  licensingNS: gitops-licensing
+  licensingNS: ibm-licensing
   appSuffix: gitops
   fileStorageClass: ocs-external-storagecluster-cephfs
   blockStorageClass: ocs-external-storagecluster-ceph-rbd

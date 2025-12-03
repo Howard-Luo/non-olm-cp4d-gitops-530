@@ -32,11 +32,11 @@ if ! oc whoami &>/dev/null; then
 fi
 print_log "SUCCESS" "Logged in as: $(oc whoami)"
 
-# ## Variables replace
-# print_log "INFO" "Replacing placeholders in YAML files using values.yaml ..."
+## Variables replace
+print_log "INFO" "Replacing placeholders in YAML files using values.yaml ..."
 
-# cd "$(dirname "$0")"
-# PROJECT_ROOT="$(cd .. && pwd)"
+cd "$(dirname "$0")"
+PROJECT_ROOT="$(cd .. && pwd)"
 # VALUES_FILE="$PROJECT_ROOT/values.yaml"
 # TMP_KV=".__flattened_kv.tmp"
 

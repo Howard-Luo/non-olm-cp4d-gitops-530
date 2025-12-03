@@ -23,8 +23,8 @@ spec:
           imagePullPrefix: icr.io
           imagePullSecret: ibm-entitlement-key
         ibmLicensing:
-          namespace: gitops-licensing
-          watchNamespace: gitops-licensing,gitops-operator,gitops-instance
+          namespace: ibm-licensing
+          watchNamespace: ibm-licensing,gitops-operator,gitops-instance
   project: default
   syncPolicy:
     automated:

@@ -17,3 +17,5 @@ resources:
   - ws.yaml
   - redis-cp-cluster.yaml
   - redis-cp.yaml
+  - watsonx-orchestrate-cluster.yaml
+  - watsonx-orchestrate.yaml

@@ -5,8 +5,8 @@ resources:
   - datarefinery.yaml
   - opensearch-cluster.yaml
   - opensearch.yaml
-  - watsonx-ai-cluster.yaml
-  - watsonx-ai.yaml
+  # - watsonx-ai-cluster.yaml
+  # - watsonx-ai.yaml
   - watsonx-ai-ifm-cluster.yaml
   - watsonx-ai-ifm.yaml
   - wml-cluster.yaml

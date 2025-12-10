@@ -110,6 +110,36 @@ global:
     chart: ws-runtimes-cluster-scoped
     version: 12.0.0+20251120.153644.24
 
+  cognos-analytics:
+    chart: cognos-analytics
+    version: 29.0.0+20251128.190941.10407
+  cognos-analytics-cluster:
+    chart: cognos-analytics-cluster-scoped
+    version: 29.0.0+20251128.190941.10407
+  db2aaservice:
+    chart: db2aaservice
+    version: 5.3.0+20251127.152913.3557.4851
+  db2aaservice-cluster:
+    chart: db2aaservice-cluster-scoped
+    version: 5.3.0+20251127.152913.3557.4851
+  db2u:
+    chart: db2u
+    version: 7.5.0+20251202.114927.18415
+  db2u-cluster:
+    chart: db2u-cluster-scoped
+    version: 7.5.0+20251202.114927.18415
+  opencontent-rabbitmq:
+    chart: opencontent-rabbitmq
+    version: 1.0.57+20250909.172851
+  opencontent-rabbitmq-cluster:
+    chart: opencontent-rabbitmq-cluster-scoped
+    version: 1.0.57+20250909.172851
+  openpages:
+    chart: openpages
+    version: 10.0.0+20251125.115349.912112433
+  openpages-cluster:
+    chart: openpages-cluster-scoped
+    version: 10.0.0+20251125.115349.912112433
 
 ## "Repository": "cp.icr.io/cp/cpd/olm-utils-premium-v4"
 ## sha256:53f6b5487363e47f00ae3879e861062a460df0f6ffab57ea077da34a1b678563

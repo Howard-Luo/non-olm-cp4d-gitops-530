@@ -32,10 +32,6 @@ spec:
           fileStorageClass: ocs-external-storagecluster-cephfs
           imagePullPrefix: icr.io
           imagePullSecret: ibm-entitlement-key
-          scaleConfig: "small"
-        watsonxAi:
-          operatorImageDigest:
-            amd64: sha256:1e8c8f66e6b9bb6882ef0dec4b5302d0ffa10bb6f4c9d3ffbe451f98af60ecd3
   project: default
   syncPolicy:
     automated:

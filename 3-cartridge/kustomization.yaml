@@ -1,21 +1,31 @@
 resources:
   - ccs-cluster.yaml
   - ccs.yaml
+  - cognos-analytics-cluster.yaml
+  - cognos-analytics.yaml
   - datarefinery-cluster.yaml
   - datarefinery.yaml
+  - db2aaservice-cluster.yaml
+  - db2aaservice.yaml
+  - db2u-cluster.yaml
+  - db2u.yaml
+  - opencontent-rabbitmq-cluster.yaml
+  - opencontent-rabbitmq.yaml
+  - openpages-cluster.yaml
+  - openpages.yaml
   - opensearch-cluster.yaml
   - opensearch.yaml
-  - watsonx-ai-cluster.yaml
-  - watsonx-ai.yaml
-  - watsonx-ai-ifm-cluster.yaml
-  - watsonx-ai-ifm.yaml
-  - wml-cluster.yaml
-  - wml.yaml
-  - ws-runtimes-cluster.yaml
-  - ws-runtimes.yaml
-  - ws-cluster.yaml
-  - ws.yaml
   - redis-cp-cluster.yaml
   - redis-cp.yaml
+  - watsonx-ai-cluster.yaml
+  - watsonx-ai-ifm-cluster.yaml
+  - watsonx-ai-ifm.yaml
+  - watsonx-ai.yaml
   - watsonx-orchestrate-cluster.yaml
   - watsonx-orchestrate.yaml
+  - wml-cluster.yaml
+  - wml.yaml
+  - ws-cluster.yaml
+  - ws-runtimes-cluster.yaml
+  - ws-runtimes.yaml
+  - ws.yaml

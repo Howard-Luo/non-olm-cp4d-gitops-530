@@ -70,6 +70,8 @@ spec:
               echo "[INFO] Post-installation watcher started. Namespace=${NS}, CR=${CR}"
 
               printed_flag=/tmp/printed
+              
+              LAST_STATUS_MSG=""
 
               while true; do
                 if ! kubectl get ibmcpd "${CR}" -n "${NS}" >/dev/null 2>&1; then
@@ -96,12 +98,18 @@ spec:
 
                     touch "${printed_flag}"
                   else
-                    echo "[INFO] CPD still Completed & Successful. Monitoring continues..."
+                    :
                   fi
 
                   sleep 300
                 else
-                  echo "[INFO] CPD status: controlPlaneStatus='${STATUS:-unknown}', Successful='${SUCC:-unknown}'."
+                  CURRENT_MSG="[INFO] CPD status: controlPlaneStatus='${STATUS:-unknown}', Successful='${SUCC:-unknown}'."
+                  
+                  if [ "$CURRENT_MSG" != "$LAST_STATUS_MSG" ]; then
+                    echo "$CURRENT_MSG"
+                    LAST_STATUS_MSG="$CURRENT_MSG"
+                  fi
+                  
                   sleep 60
                 fi
               done

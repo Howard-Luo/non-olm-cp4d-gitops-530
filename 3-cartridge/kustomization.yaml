@@ -22,7 +22,7 @@ resources:
   - watsonx-ai-ifm.yaml
   - watsonx-ai.yaml
   - watsonx-orchestrate-cluster.yaml
-  - watsonx-orchestrate.yaml
+  # - watsonx-orchestrate.yaml
   - wml-cluster.yaml
   - wml.yaml
   - ws-cluster.yaml

@@ -6,5 +6,5 @@ resources:
   - postgresql.yaml
   - zen.yaml
   - rh-cm.yaml
-  - ibm-licensing.yaml
+  # - ibm-licensing.yaml
   - post-installation.yaml

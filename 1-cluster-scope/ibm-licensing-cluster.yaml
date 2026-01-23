@@ -14,7 +14,7 @@ spec:
   source:
     path: ''
     repoURL: https://howard-luo.github.io/non-olm-cp4d-gitops-530/repos
-    targetRevision: 4.2.16+20250528.101036.0
+    targetRevision: 4.2.20+20251205.123822.0
     chart: ibm-license-service-cluster-scoped
     helm:
       valuesObject:
@@ -22,9 +22,11 @@ spec:
           licenseAccept: true
           imagePullPrefix: icr.io
           imagePullSecret: ibm-entitlement-key
-        ibmLicensing:
-          namespace: ibm-licensing
-          watchNamespace: ibm-licensing,gitops-operator,gitops-instance
+        # ibmLicensing:
+        #   namespace: ibm-licensing
+        #   watchNamespace: ibm-licensing,gitops-operator,gitops-instance
+        namespace: ibm-licensing
+        watchNamespace: ibm-licensing,gitops-operator,gitops-instance
   project: default
   syncPolicy:
     automated:

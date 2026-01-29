@@ -30,3 +30,5 @@ resources:
   - ws-runtimes.yaml
   - ws.yaml
   - ibm-events-operator.yaml
+  - watsonx-data-cluster.yaml
+  - watsonx-data.yaml

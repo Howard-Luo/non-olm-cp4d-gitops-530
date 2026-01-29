@@ -29,3 +29,4 @@ resources:
   - ws-runtimes-cluster.yaml
   - ws-runtimes.yaml
   - ws.yaml
+  - ibm-events-operator.yaml

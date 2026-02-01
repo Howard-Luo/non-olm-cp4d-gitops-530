@@ -24,8 +24,14 @@ spec:
     chart: ibm-events-operator
     helm:
       valuesObject:
-        global:
-          watchNamespaces: [gitops-operator,gitops-instance]
+        watchNamespaces: [gitops-operator,gitops-instance]
+        extraEnvs:
+          - name: STRIMZI_KAFKA_IMAGES
+            value: "4.0.0=quay.io/strimzi/kafka:latest-kafka-4.0.0,4.1.1=quay.io/strimzi/kafka:latest-kafka-4.1.1"
+          - name: STRIMZI_KAFKA_CONNECT_IMAGES
+            value: "4.0.0=quay.io/strimzi/kafka:latest-kafka-4.0.0,4.1.1=quay.io/strimzi/kafka:latest-kafka-4.1.1"
+          - name: STRIMZI_KAFKA_MIRROR_MAKER_2_IMAGES
+            value: "4.0.0=quay.io/strimzi/kafka:latest-kafka-4.0.0,4.1.1=quay.io/strimzi/kafka:latest-kafka-4.1.1"
   project: default
   syncPolicy:
     automated:

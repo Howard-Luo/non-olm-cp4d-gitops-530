@@ -25,13 +25,8 @@ spec:
     helm:
       valuesObject:
         watchNamespaces: [gitops-operator,gitops-instance]
-        kafka:
-          image:
-            variants: 
-              - version: 4.0.0
-                image: quay.io/strimzi/kafka:latest-kafka-4.0.0
-              - version: 4.1.1
-                image: quay.io/strimzi/kafka:latest-kafka-4.1.1
+        image:
+          tag: "0.44.0"
   project: default
   syncPolicy:
     automated:

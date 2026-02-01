@@ -25,8 +25,8 @@ spec:
           licenseAccept: true
           operatorNamespace: gitops-operator
           releaseVersion: 5.3.0
-
         watsonxData:
-          deployCR: false    path: ''
+          deployCR: false    
+    path: ''
     repoURL: https://howard-luo.github.io/non-olm-cp4d-gitops-530/repos
     targetRevision: 6.0.0+20251212.153400.146

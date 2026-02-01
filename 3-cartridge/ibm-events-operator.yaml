@@ -25,13 +25,13 @@ spec:
     helm:
       valuesObject:
         watchNamespaces: [gitops-operator,gitops-instance]
-        extraEnvs:
-          - name: STRIMZI_KAFKA_IMAGES
-            value: "4.0.0=quay.io/strimzi/kafka:latest-kafka-4.0.0,4.1.1=quay.io/strimzi/kafka:latest-kafka-4.1.1"
-          - name: STRIMZI_KAFKA_CONNECT_IMAGES
-            value: "4.0.0=quay.io/strimzi/kafka:latest-kafka-4.0.0,4.1.1=quay.io/strimzi/kafka:latest-kafka-4.1.1"
-          - name: STRIMZI_KAFKA_MIRROR_MAKER_2_IMAGES
-            value: "4.0.0=quay.io/strimzi/kafka:latest-kafka-4.0.0,4.1.1=quay.io/strimzi/kafka:latest-kafka-4.1.1"
+        kafka:
+          image:
+            variants: 
+              - version: 4.0.0
+                image: quay.io/strimzi/kafka:latest-kafka-4.0.0
+              - version: 4.1.1
+                image: quay.io/strimzi/kafka:latest-kafka-4.1.1
   project: default
   syncPolicy:
     automated:

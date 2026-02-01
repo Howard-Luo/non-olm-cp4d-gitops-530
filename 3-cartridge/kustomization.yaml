@@ -30,5 +30,17 @@ resources:
   - ws-runtimes.yaml
   - ws.yaml
   # - ibm-events-operator.yaml
-  # - watsonx-data-cluster.yaml
-  # - watsonx-data.yaml
+  - data-governor-app.yaml
+  - data-governor-cluster-app.yaml
+  - ibm-namespace-scope-operator-app.yaml
+  - ibm-namespace-scope-operator-cluster-app.yaml
+  - ibm-usage-metering-app.yaml
+  - ibm-usage-metering-cluster-app.yaml
+  - watson-assistant-app.yaml
+  - watson-assistant-cluster-app.yaml
+  - watson-gateway-app.yaml
+  - watson-gateway-cluster-app.yaml
+  - watsonx-data-app.yaml
+  - watsonx-data-cluster-app.yaml
+  - watsonx-orchestrate-app.yaml
+  - watsonx-orchestrate-cluster-app.yaml

@@ -3,7 +3,7 @@ entries:
   ccs:
   - apiVersion: v2
     appVersion: 12.0.0
-    created: "2026-02-01T21:10:49.445596+11:00"
+    created: "2026-02-02T12:40:42.063235+11:00"
     description: CPD Common Core Service Helm chart for operator
     digest: 68d8e10d45d8d1133003c59de007d347125a0e742134b917e9380979e94da85d
     name: ccs
@@ -11,10 +11,20 @@ entries:
     urls:
     - https://howard-luo.github.io/non-olm-cp4d-gitops-530/repos/ccs-12.0.0+20251122.012657.332.tgz
     version: 12.0.0+20251122.012657.332
+  - apiVersion: v2
+    appVersion: 12.0.0
+    created: "2026-02-02T12:40:42.063463+11:00"
+    description: CPD Common Core Service Helm chart for operator
+    digest: b74c1c8c5accf29db992b4a3d430f0f6b59e52441350ae44e545dce6d9718fe2
+    name: ccs
+    type: application
+    urls:
+    - https://howard-luo.github.io/non-olm-cp4d-gitops-530/repos/ccs-12.0.0+20251229.152017.337.tgz
+    version: 12.0.0+20251229.152017.337
   ccs-cluster-scoped:
   - apiVersion: v2
     appVersion: 12.0.0
-    created: "2026-02-01T21:10:49.446022+11:00"
+    created: "2026-02-02T12:40:42.063754+11:00"
     description: CPD Common Core Service Helm chart for operator
     digest: 4b8160e123dc9b81986c870f687ca111a1c742650fdf683b7c983c81c1c6c7b0
     name: ccs-cluster-scoped
@@ -22,10 +32,20 @@ entries:
     urls:
     - https://howard-luo.github.io/non-olm-cp4d-gitops-530/repos/ccs-cluster-scoped-12.0.0+20251122.012657.332.tgz
     version: 12.0.0+20251122.012657.332
+  - apiVersion: v2
+    appVersion: 12.0.0
+    created: "2026-02-02T12:40:42.064036+11:00"
+    description: CPD Common Core Service Helm chart for operator
+    digest: aa7fbfa21e0ca21207b36d86b47996c0c21a11d0d7ff09a88d63e8ba31012ba4
+    name: ccs-cluster-scoped
+    type: application
+    urls:
+    - https://howard-luo.github.io/non-olm-cp4d-gitops-530/repos/ccs-cluster-scoped-12.0.0+20251229.152017.337.tgz
+    version: 12.0.0+20251229.152017.337
   cognos-analytics:
   - apiVersion: v2
     appVersion: 29.0.0
-    created: "2026-02-01T21:10:49.446327+11:00"
+    created: "2026-02-02T12:40:42.064816+11:00"
     digest: 8f9dbe2b16c27efb7f8b476cc8f46cb03089fdff3cbcbc6a67e87bf859afb335
     name: cognos-analytics
     type: application
@@ -35,7 +55,7 @@ entries:
   cognos-analytics-cluster-scoped:
   - apiVersion: v2
     appVersion: 29.0.0
-    created: "2026-02-01T21:10:49.446607+11:00"
+    created: "2026-02-02T12:40:42.065061+11:00"
     digest: ca2c7c42c9442582b1f0c4c76bad1feb4ccb93736f2dedef53bb136a754cf953
     name: cognos-analytics-cluster-scoped
     type: application
@@ -45,7 +65,7 @@ entries:
   cpd-platform:
   - apiVersion: v2
     appVersion: 5.3.0
-    created: "2026-02-01T21:10:49.44691+11:00"
+    created: "2026-02-02T12:40:42.065251+11:00"
     description: A Helm chart for Kubernetes
     digest: 47d1395c5cc9a64dd4a8ed3cfdf6a9bed31aef8193d864a2644a34f460176845
     name: cpd-platform
@@ -53,10 +73,20 @@ entries:
     urls:
     - https://howard-luo.github.io/non-olm-cp4d-gitops-530/repos/cpd-platform-5.3.0+20251122.143747.124.tgz
     version: 5.3.0+20251122.143747.124
+  - apiVersion: v2
+    appVersion: 5.3.0
+    created: "2026-02-02T12:40:42.065435+11:00"
+    description: A Helm chart for Kubernetes
+    digest: 96dfda30bb02b850f19b5a9f427b4c22901f630d60c1c3a28debd6f9e9ec1de9
+    name: cpd-platform
+    type: application
+    urls:
+    - https://howard-luo.github.io/non-olm-cp4d-gitops-530/repos/cpd-platform-5.3.0+20251214.084210.129.tgz
+    version: 5.3.0+20251214.084210.129
   cpd-platform-cluster-scoped:
   - apiVersion: v2
     appVersion: 5.3.0
-    created: "2026-02-01T21:10:49.447761+11:00"
+    created: "2026-02-02T12:40:42.065543+11:00"
     description: A Helm chart for Kubernetes
     digest: 939a1fd7323190158c8b82edd0b1ef3765d1231162893439b222953f8cb0706d
     name: cpd-platform-cluster-scoped
@@ -64,10 +94,20 @@ entries:
     urls:
     - https://howard-luo.github.io/non-olm-cp4d-gitops-530/repos/cpd-platform-cluster-scoped-5.3.0+20251122.143747.124.tgz
     version: 5.3.0+20251122.143747.124
+  - apiVersion: v2
+    appVersion: 5.3.0
+    created: "2026-02-02T12:40:42.065672+11:00"
+    description: A Helm chart for Kubernetes
+    digest: 48970f8b51276cdc602b1c2ef4d84117bc4600badaf3f16b2526433cb3fdc6fa
+    name: cpd-platform-cluster-scoped
+    type: application
+    urls:
+    - https://howard-luo.github.io/non-olm-cp4d-gitops-530/repos/cpd-platform-cluster-scoped-5.3.0+20251214.084210.129.tgz
+    version: 5.3.0+20251214.084210.129
   data-governor:
   - apiVersion: v2
     appVersion: 3.25.2
-    created: "2026-02-01T21:10:49.44811+11:00"
+    created: "2026-02-02T12:40:42.065861+11:00"
     digest: 7e3bdd50a7592b0300af473cab85a698026124a9f2ba4577c6b09fa9a5e719c1
     name: data-governor
     type: application
@@ -77,7 +117,7 @@ entries:
   data-governor-cluster-scoped:
   - apiVersion: v2
     appVersion: 3.25.2
-    created: "2026-02-01T21:10:49.449183+11:00"
+    created: "2026-02-02T12:40:42.066292+11:00"
     digest: b11fb1fa5e9497b010b55b5c85c04fd0603d9a667774f8617f1fe83d84849598
     name: data-governor-cluster-scoped
     type: application
@@ -87,7 +127,7 @@ entries:
   datarefinery:
   - apiVersion: v2
     appVersion: 12.0.0
-    created: "2026-02-01T21:10:49.449389+11:00"
+    created: "2026-02-02T12:40:42.06645+11:00"
     description: CPD Data Refinery Helm chart for operator
     digest: dcca9e901bb71a6b78127dc36f1aea5b6b94be5deb42c1c7db6788a8a9dd1d34
     name: datarefinery
@@ -98,7 +138,7 @@ entries:
   datarefinery-cluster-scoped:
   - apiVersion: v2
     appVersion: 12.0.0
-    created: "2026-02-01T21:10:49.449589+11:00"
+    created: "2026-02-02T12:40:42.066547+11:00"
     description: CPD Data Refinery Helm chart for operator
     digest: 5f4c29fceed7a459d6877db1f29f4950c29795efd2f7ebed580c93d964ae1461
     name: datarefinery-cluster-scoped
@@ -109,7 +149,7 @@ entries:
   db2aaservice:
   - apiVersion: v2
     appVersion: 5.3.0
-    created: "2026-02-01T21:10:49.44983+11:00"
+    created: "2026-02-02T12:40:42.066696+11:00"
     description: A Helm chart for IBM db2aaservice Operator on Kubernetes
     digest: 90f6cbe75f26fca82fc47535d940cebeba10b987da7353b03acd5cfce10f95d8
     name: db2aaservice
@@ -120,7 +160,7 @@ entries:
   db2aaservice-cluster-scoped:
   - apiVersion: v2
     appVersion: 5.3.0
-    created: "2026-02-01T21:10:49.450118+11:00"
+    created: "2026-02-02T12:40:42.066799+11:00"
     digest: b4d4640306f198a7555b0de1378977bd35fa48bf1ee1781176a2e17a61c43ba8
     name: db2aaservice-cluster-scoped
     type: application
@@ -130,7 +170,7 @@ entries:
   db2u:
   - apiVersion: v2
     appVersion: 7.5.0
-    created: "2026-02-01T21:10:49.450294+11:00"
+    created: "2026-02-02T12:40:42.066952+11:00"
     description: A Helm chart for IBM DB2U Operator on Kubernetes
     digest: fd295e3c5b187d6613c4ca977d85283e2d8fd16c35910385ae6e12364a918327
     name: db2u
@@ -141,7 +181,7 @@ entries:
   db2u-cluster-scoped:
   - apiVersion: v2
     appVersion: 7.5.0
-    created: "2026-02-01T21:10:49.45155+11:00"
+    created: "2026-02-02T12:40:42.068058+11:00"
     description: A Helm chart for IBM DB2U Operator cluster scoped on Kubernetes
     digest: 36acf64129aad14e1b88cb1bdeacb905596c56110306b5de8e6359885613fb49
     name: db2u-cluster-scoped
@@ -152,7 +192,7 @@ entries:
   ibm-cert-manager-operator:
   - apiVersion: v2
     appVersion: 4.2.20
-    created: "2026-02-01T21:10:49.451983+11:00"
+    created: "2026-02-02T12:40:42.068163+11:00"
     description: A Helm chart for ibm-cert-manager-operator
     digest: b15148dfa803c6783aaa8f5e1e80c7682d051c4b746ae4a627071ef6cb34f919
     name: ibm-cert-manager-operator
@@ -163,7 +203,7 @@ entries:
   ibm-cert-manager-operator-cluster-scoped:
   - apiVersion: v2
     appVersion: 4.2.20
-    created: "2026-02-01T21:10:49.453238+11:00"
+    created: "2026-02-02T12:40:42.069181+11:00"
     description: A Helm chart for ibm-cert-manager-operator
     digest: 11df7432f7f6de60dbc07593c99ba4b192bdf3ff5175c863a99af180a5785693
     name: ibm-cert-manager-operator-cluster-scoped
@@ -179,7 +219,7 @@ entries:
       versionOperator-2: 4.5.5
     apiVersion: v2
     appVersion: 4.16.0
-    created: "2026-02-01T21:10:49.453512+11:00"
+    created: "2026-02-02T12:40:42.06936+11:00"
     description: A Helm chart for ibm-common-service-operator and ibm-odlm namespace
       scoped resources
     digest: 21065d42b8493f8e5c59998da2c9b6048f6fd01311b5f2d61e24abb83088179c
@@ -188,6 +228,22 @@ entries:
     urls:
     - https://howard-luo.github.io/non-olm-cp4d-gitops-530/repos/ibm-common-service-operator-4.16.0+20251107.123839.0.tgz
     version: 4.16.0+20251107.123839.0
+  - annotations:
+      operator-1: ibm-common-service-operator
+      operator-2: ibm-odlm
+      versionOperator-1: 4.16.0
+      versionOperator-2: 4.5.5
+    apiVersion: v2
+    appVersion: 4.16.0
+    created: "2026-02-02T12:40:42.069516+11:00"
+    description: A Helm chart for ibm-common-service-operator and ibm-odlm namespace
+      scoped resources
+    digest: 1db48534f8034bf9d0ea08d4e5a6f5f4e80feca1232a347743ffc2fbc3bbafb7
+    name: ibm-common-service-operator
+    type: application
+    urls:
+    - https://howard-luo.github.io/non-olm-cp4d-gitops-530/repos/ibm-common-service-operator-4.16.0+20251202.184832.0.tgz
+    version: 4.16.0+20251202.184832.0
   ibm-common-service-operator-cluster-scoped:
   - annotations:
       operator-1: ibm-common-service-operator
@@ -196,7 +252,7 @@ entries:
       versionOperator-2: 4.5.5
     apiVersion: v2
     appVersion: 4.16.0
-    created: "2026-02-01T21:10:49.454407+11:00"
+    created: "2026-02-02T12:40:42.070561+11:00"
     description: A Helm chart for ibm-common-service-operator and ibm-odlm cluster
       scoped resources
     digest: a6e8e51407eab358ca72043a557efc794cf083d7ca24462826f9fd4ab4b2dabf
@@ -205,10 +261,26 @@ entries:
     urls:
     - https://howard-luo.github.io/non-olm-cp4d-gitops-530/repos/ibm-common-service-operator-cluster-scoped-4.16.0+20251107.123839.0.tgz
     version: 4.16.0+20251107.123839.0
+  - annotations:
+      operator-1: ibm-common-service-operator
+      operator-2: ibm-odlm
+      versionOperator-1: 4.16.0
+      versionOperator-2: 4.5.5
+    apiVersion: v2
+    appVersion: 4.16.0
+    created: "2026-02-02T12:40:42.071278+11:00"
+    description: A Helm chart for ibm-common-service-operator and ibm-odlm cluster
+      scoped resources
+    digest: 5d90c35054986878729e942da2a000b09908d4e6bb7765d3404a4115ca7429bd
+    name: ibm-common-service-operator-cluster-scoped
+    type: application
+    urls:
+    - https://howard-luo.github.io/non-olm-cp4d-gitops-530/repos/ibm-common-service-operator-cluster-scoped-4.16.0+20251202.184832.0.tgz
+    version: 4.16.0+20251202.184832.0
   ibm-events-operator:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2026-02-01T21:10:49.45902+11:00"
+    created: "2026-02-02T12:40:42.075867+11:00"
     description: 'Strimzi: Apache Kafka running on Kubernetes'
     digest: fe41e48b8fa0547327b7b3d3fcdd3d13c9ca873f06f32cc57fd427ada442c1bb
     home: https://strimzi.io/
@@ -239,7 +311,7 @@ entries:
       versionOperator-2: 4.12.0
     apiVersion: v2
     appVersion: 4.15.0
-    created: "2026-02-01T21:10:49.459434+11:00"
+    created: "2026-02-02T12:40:42.076127+11:00"
     description: A Helm chart for ibm-iam-operator and ibm-commonui-operator namespace
       scoped resources
     digest: 35f589a5242e53914177f3ff3e094acf5ffbe0597492f8576edc84bddd5ec809
@@ -258,7 +330,7 @@ entries:
       versionOperator-2: 4.12.0
     apiVersion: v2
     appVersion: 4.15.0
-    created: "2026-02-01T21:10:49.459735+11:00"
+    created: "2026-02-02T12:40:42.07631+11:00"
     description: A Helm chart for ibm-iam-operator and ibm-commonui-operator cluster
       scoped resources
     digest: 108d3347d4054b45746e754adb86764f33a8b7dad32ca33ee614fae538192be9
@@ -271,7 +343,7 @@ entries:
     version: 4.15.0+20251111.110850.0
   ibm-license-service:
   - apiVersion: v2
-    created: "2026-02-01T21:10:49.45993+11:00"
+    created: "2026-02-02T12:40:42.076426+11:00"
     description: A Helm chart for IBM License Service ArgoCD installation
     digest: bb6c471ceb689de90abe4c810e8622242a9846d76817c540570f6c3e07676443
     name: ibm-license-service
@@ -281,7 +353,7 @@ entries:
     version: 4.2.16+20250528.101036.0
   ibm-license-service-cluster-scoped:
   - apiVersion: v2
-    created: "2026-02-01T21:10:49.460259+11:00"
+    created: "2026-02-02T12:40:42.076634+11:00"
     description: A Helm chart for IBM License Service ArgoCD installation (cluster
       scoped)
     digest: 3a9830c1b2fc0c32d12b9c55f5c82483e176c86fcc25e40e759edea88ae29ef5
@@ -291,7 +363,7 @@ entries:
     - https://howard-luo.github.io/non-olm-cp4d-gitops-530/repos/ibm-license-service-cluster-scoped-4.2.16+20250528.101036.0%20copy.tgz
     version: 4.2.16+20250528.101036.0
   - apiVersion: v2
-    created: "2026-02-01T21:10:49.46057+11:00"
+    created: "2026-02-02T12:40:42.076845+11:00"
     description: A Helm chart for IBM License Service ArgoCD installation (cluster
       scoped)
     digest: 3a9830c1b2fc0c32d12b9c55f5c82483e176c86fcc25e40e759edea88ae29ef5
@@ -302,7 +374,7 @@ entries:
     version: 4.2.16+20250528.101036.0
   ibm-licensing-cluster-scoped:
   - apiVersion: v2
-    created: "2026-02-01T21:10:49.461057+11:00"
+    created: "2026-02-02T12:40:42.077126+11:00"
     description: A Helm chart for IBM License Service installation
     digest: 70efcdcd6113022c6c01d5b0435ee8ac966e0ff16613c0c45d4287a3b0dee8f7
     name: ibm-licensing-cluster-scoped
@@ -313,7 +385,7 @@ entries:
   ibm-namespace-scope-operator:
   - apiVersion: v2
     appVersion: 4.3.3
-    created: "2026-02-01T21:10:49.461301+11:00"
+    created: "2026-02-02T12:40:42.077235+11:00"
     description: Helm chart for ibm-namespace-scope-operator
     digest: bb79154dfba2f516f5076fc05bad3641ed44f69812632c8c680cb629f7bed2cd
     name: ibm-namespace-scope-operator
@@ -326,7 +398,7 @@ entries:
   ibm-namespace-scope-operator-cluster-scoped:
   - apiVersion: v2
     appVersion: 4.3.3
-    created: "2026-02-01T21:10:49.461512+11:00"
+    created: "2026-02-02T12:40:42.077358+11:00"
     description: Helm chart for ibm-namespace-scope-operator
     digest: 8ecb1e3b3211e0ced8c5f2e8c144dc1a4888f4080ad95eca94f1747e66317b61
     name: ibm-namespace-scope-operator-cluster-scoped
@@ -339,7 +411,7 @@ entries:
   ibm-redis-cp:
   - apiVersion: v2
     appVersion: 1.3.0
-    created: "2026-02-01T21:10:49.461811+11:00"
+    created: "2026-02-02T12:40:42.077569+11:00"
     description: A Helm chart for IBM REDIS CP
     digest: f1e80e1cd5410103245d411dd7ef0fde69a8055e5c234e2d9c4af17fdcdd3596
     name: ibm-redis-cp
@@ -350,7 +422,7 @@ entries:
   ibm-redis-cp-cluster-scoped:
   - apiVersion: v2
     appVersion: 1.3.0
-    created: "2026-02-01T21:10:49.462001+11:00"
+    created: "2026-02-02T12:40:42.07766+11:00"
     description: A Helm chart for IBM REDIS CP Cluster Scope
     digest: 14c3a3413796ab85350e337c09984d36539f231dfc20263a088aea9f1d099ef0
     name: ibm-redis-cp-cluster-scoped
@@ -361,7 +433,7 @@ entries:
   ibm-usage-metering:
   - apiVersion: v2
     appVersion: 1.0.3
-    created: "2026-02-01T21:10:49.462321+11:00"
+    created: "2026-02-02T12:40:42.077771+11:00"
     description: A Helm chart for IBM Usage Metering installation
     digest: ae518202e614ff75c932b2858f77f1ef156e53247fd808bc02683d30de413109
     name: ibm-usage-metering
@@ -372,7 +444,7 @@ entries:
   ibm-usage-metering-cluster-scoped:
   - apiVersion: v2
     appVersion: 1.0.3
-    created: "2026-02-01T21:10:49.462604+11:00"
+    created: "2026-02-02T12:40:42.077938+11:00"
     description: A Helm chart for IBM Usage Metering installation (cluster scoped)
     digest: e77a5d83a50b554d4c5ce28a1ef7bffdac70e5200db50ca0f0ccea7ecad86499
     name: ibm-usage-metering-cluster-scoped
@@ -383,7 +455,7 @@ entries:
   opencontent-opensearch:
   - apiVersion: v2
     appVersion: 1.1.4009
-    created: "2026-02-01T21:10:49.462771+11:00"
+    created: "2026-02-02T12:40:42.078083+11:00"
     digest: d6d084e23c9ce950f90f414cf895810d83f4a8a098569aa167f2075385ad04ff
     name: opencontent-opensearch
     type: application
@@ -393,7 +465,7 @@ entries:
   opencontent-opensearch-cluster-scoped:
   - apiVersion: v2
     appVersion: 1.1.4009
-    created: "2026-02-01T21:10:49.463714+11:00"
+    created: "2026-02-02T12:40:42.078745+11:00"
     digest: bfe71a63201f349e542a6273c611d1d057c2b4c40be35c4b65527896892cf180
     name: opencontent-opensearch-cluster-scoped
     type: application
@@ -403,7 +475,7 @@ entries:
   opencontent-rabbitmq:
   - apiVersion: v2
     appVersion: 1.0.57
-    created: "2026-02-01T21:10:49.463853+11:00"
+    created: "2026-02-02T12:40:42.078868+11:00"
     digest: 6a0a4df108714fa34ea558057b342b42a7d5c8dc7b62bd3fdc6192c6940ad0d2
     name: opencontent-rabbitmq
     type: application
@@ -412,7 +484,7 @@ entries:
     version: 1.0.57+20250909.172851
   - apiVersion: v2
     appVersion: 1.0.57
-    created: "2026-02-01T21:10:49.463992+11:00"
+    created: "2026-02-02T12:40:42.078982+11:00"
     digest: 6a0a4df108714fa34ea558057b342b42a7d5c8dc7b62bd3fdc6192c6940ad0d2
     name: opencontent-rabbitmq
     type: application
@@ -422,7 +494,7 @@ entries:
   opencontent-rabbitmq-cluster-scoped:
   - apiVersion: v2
     appVersion: 1.0.57
-    created: "2026-02-01T21:10:49.4642+11:00"
+    created: "2026-02-02T12:40:42.079142+11:00"
     digest: 593c9243c7f603463a91d65e0271a44f9bf6517ef606b633e6a9237ec748284f
     name: opencontent-rabbitmq-cluster-scoped
     type: application
@@ -431,7 +503,7 @@ entries:
     version: 1.0.57+20250909.172851
   - apiVersion: v2
     appVersion: 1.0.57
-    created: "2026-02-01T21:10:49.464394+11:00"
+    created: "2026-02-02T12:40:42.079311+11:00"
     digest: 593c9243c7f603463a91d65e0271a44f9bf6517ef606b633e6a9237ec748284f
     name: opencontent-rabbitmq-cluster-scoped
     type: application
@@ -441,7 +513,7 @@ entries:
   openpages:
   - apiVersion: v2
     appVersion: 9.6.0
-    created: "2026-02-01T21:10:49.464567+11:00"
+    created: "2026-02-02T12:40:42.079486+11:00"
     description: Helm chart for deploying the OpenPages service, including RBAC, operator
       deployment, and Custom Resource definitions.
     digest: 48b9022b8f767a04b19faf593fa70515ecbb90c2fc7332bd5469e3a467a56301
@@ -453,7 +525,7 @@ entries:
   openpages-cluster-scoped:
   - apiVersion: v2
     appVersion: 9.6.0
-    created: "2026-02-01T21:10:49.464695+11:00"
+    created: "2026-02-02T12:40:42.079611+11:00"
     description: Helm chart for deploying the OpenPages service cluster scoped objects,
       including RBAC, operator deployment, and Custom Resource definitions.
     digest: 39cbbc94fe612bae3745a27e7d4696c8438a58709cb9188cf7f8d1c28c9b3f0f
@@ -465,7 +537,7 @@ entries:
   postgresql:
   - apiVersion: v2
     appVersion: 1.25.4
-    created: "2026-02-01T21:10:49.465691+11:00"
+    created: "2026-02-02T12:40:42.080709+11:00"
     description: EDB Postgres for Kubernetes Helm Chart
     digest: 698ac817a7ff4e31af1dfe204032bd999f1163fbac241953a0fa490d44eeb571
     icon: https://www.enterprisedb.com/themes/custom/edb_bootstrap_sass/edb-logo-disc-dark-2.svg
@@ -476,10 +548,23 @@ entries:
     urls:
     - https://howard-luo.github.io/non-olm-cp4d-gitops-530/repos/postgresql-5.30.0+20251030.094351.108.tgz
     version: 5.30.0+20251030.094351.108
+  - apiVersion: v2
+    appVersion: 1.25.4
+    created: "2026-02-02T12:40:42.081995+11:00"
+    description: EDB Postgres for Kubernetes Helm Chart
+    digest: c8f2bbcf0babcb9a718d4204eb6233e21a80544e3a037fea8165ff75f53c15ea
+    icon: https://www.enterprisedb.com/themes/custom/edb_bootstrap_sass/edb-logo-disc-dark-2.svg
+    name: postgresql
+    sources:
+    - https://github.com/EnterpriseDB/edb-postgres-for-kubernetes-charts
+    type: application
+    urls:
+    - https://howard-luo.github.io/non-olm-cp4d-gitops-530/repos/postgresql-5.30.0+20251203.094351.155.tgz
+    version: 5.30.0+20251203.094351.155
   postgresql-cluster-scoped:
   - apiVersion: v2
     appVersion: 1.25.4
-    created: "2026-02-01T21:10:49.469483+11:00"
+    created: "2026-02-02T12:40:42.085023+11:00"
     description: A Helm chart for Postgresql Cluster Scope
     digest: e1632804abf20debfd82947e1b367cb18494ef19fbfa07f992677336409b3060
     icon: https://www.enterprisedb.com/themes/custom/edb_bootstrap_sass/edb-logo-disc-dark-2.svg
@@ -490,10 +575,23 @@ entries:
     urls:
     - https://howard-luo.github.io/non-olm-cp4d-gitops-530/repos/postgresql-cluster-scoped-5.30.0+20251030.094351.108.tgz
     version: 5.30.0+20251030.094351.108
+  - apiVersion: v2
+    appVersion: 1.25.4
+    created: "2026-02-02T12:40:42.08791+11:00"
+    description: A Helm chart for Postgresql Cluster Scope
+    digest: de8869bddaeb35c5dbc8c93aef8087d19cdd9101a4ba438a8313a7d32ae40af5
+    icon: https://www.enterprisedb.com/themes/custom/edb_bootstrap_sass/edb-logo-disc-dark-2.svg
+    name: postgresql-cluster-scoped
+    sources:
+    - https://github.com/EnterpriseDB/edb-postgres-for-kubernetes-charts
+    type: application
+    urls:
+    - https://howard-luo.github.io/non-olm-cp4d-gitops-530/repos/postgresql-cluster-scoped-5.30.0+20251203.094351.155.tgz
+    version: 5.30.0+20251203.094351.155
   watson-assistant:
   - apiVersion: v2
     appVersion: 5.3.0
-    created: "2026-02-01T21:10:49.469819+11:00"
+    created: "2026-02-02T12:40:42.0881+11:00"
     digest: d51b7b34423dddadd69db71ffde2db0fedb23f867192f5fd4cb55aa633a80f0f
     name: watson-assistant
     type: application
@@ -503,7 +601,7 @@ entries:
   watson-assistant-cluster-scoped:
   - apiVersion: v2
     appVersion: 5.3.0
-    created: "2026-02-01T21:10:49.470286+11:00"
+    created: "2026-02-02T12:40:42.088562+11:00"
     digest: 20e522e2f1ad80dd5530330c4c41aed051e4b206724c7c5e8279b53363c44168
     name: watson-assistant-cluster-scoped
     type: application
@@ -513,7 +611,7 @@ entries:
   watson-gateway:
   - apiVersion: v2
     appVersion: 2.0.63
-    created: "2026-02-01T21:10:49.47056+11:00"
+    created: "2026-02-02T12:40:42.088835+11:00"
     digest: ccd79774276d4d228f58885209433e029418d730fb1521fe3594369de5d2cdb5
     name: watson-gateway
     type: application
@@ -523,7 +621,7 @@ entries:
   watson-gateway-cluster-scoped:
   - apiVersion: v2
     appVersion: 2.0.63
-    created: "2026-02-01T21:10:49.470794+11:00"
+    created: "2026-02-02T12:40:42.088973+11:00"
     digest: 2ac2f9afc0c831b0efdd4c0c17a8140e99320d4d4b8dcc30f2535e948a01a7c6
     name: watson-gateway-cluster-scoped
     type: application
@@ -533,7 +631,7 @@ entries:
   watsonx-ai:
   - apiVersion: v2
     appVersion: 12.0.0
-    created: "2026-02-01T21:10:49.470952+11:00"
+    created: "2026-02-02T12:40:42.089145+11:00"
     description: Watsonx.ai Service Helm char for operator
     digest: d7e4135a0c8694950c75e959c56f8406538d012f891eb0c2b0246bf27cd842f9
     name: watsonx-ai
@@ -544,7 +642,7 @@ entries:
   watsonx-ai-cluster-scoped:
   - apiVersion: v2
     appVersion: 12.0.0
-    created: "2026-02-01T21:10:49.471153+11:00"
+    created: "2026-02-02T12:40:42.089367+11:00"
     description: CPD watsonx.ai Service Helm chart for cluster scoped resources
     digest: dee4bf03d4367c321dcbd5432fd804f83f38b94750c726bab2a49eed8b77fb1d
     name: watsonx-ai-cluster-scoped
@@ -555,7 +653,7 @@ entries:
   watsonx-ai-ifm:
   - apiVersion: v2
     appVersion: 12.0.0
-    created: "2026-02-01T21:10:49.471307+11:00"
+    created: "2026-02-02T12:40:42.089523+11:00"
     description: Watsonx.ai IFM Service Helm chart for operator
     digest: a84a61b6c0581dc792b6f3b138c160e99783d2b8646193b49fb8410547e92e1e
     name: watsonx-ai-ifm
@@ -563,10 +661,20 @@ entries:
     urls:
     - https://howard-luo.github.io/non-olm-cp4d-gitops-530/repos/watsonx-ai-ifm-12.0.0+20251128.202845.243.tgz
     version: 12.0.0+20251128.202845.243
+  - apiVersion: v2
+    appVersion: 12.0.0
+    created: "2026-02-02T12:40:42.0897+11:00"
+    description: Watsonx.ai IFM Service Helm chart for operator
+    digest: bcfd1e7f35fabfa52559ac1e599e65a4581e4a4191e5e8f18d11da430c426599
+    name: watsonx-ai-ifm
+    type: application
+    urls:
+    - https://howard-luo.github.io/non-olm-cp4d-gitops-530/repos/watsonx-ai-ifm-12.0.0+20251210.235551.245.tgz
+    version: 12.0.0+20251210.235551.245
   watsonx-ai-ifm-cluster-scoped:
   - apiVersion: v2
     appVersion: 12.0.0
-    created: "2026-02-01T21:10:49.471397+11:00"
+    created: "2026-02-02T12:40:42.089799+11:00"
     description: CPD watsonx.ai IFM Service Helm chart for cluster scoped resources
     digest: 8306640e86eeef58cb1c44c05b5a7fb41551fe010669a924991545fb5e36bdf9
     name: watsonx-ai-ifm-cluster-scoped
@@ -574,10 +682,20 @@ entries:
     urls:
     - https://howard-luo.github.io/non-olm-cp4d-gitops-530/repos/watsonx-ai-ifm-cluster-scoped-12.0.0+20251126.133633.241.tgz
     version: 12.0.0+20251126.133633.241
+  - apiVersion: v2
+    appVersion: 12.0.0
+    created: "2026-02-02T12:40:42.089883+11:00"
+    description: CPD watsonx.ai IFM Service Helm chart for cluster scoped resources
+    digest: 5d499a0d41ad40ba41acca10fb1cda803fded376663a48045d11ac0281ac3e7d
+    name: watsonx-ai-ifm-cluster-scoped
+    type: application
+    urls:
+    - https://howard-luo.github.io/non-olm-cp4d-gitops-530/repos/watsonx-ai-ifm-cluster-scoped-12.0.0+20251210.235551.245.tgz
+    version: 12.0.0+20251210.235551.245
   watsonx-data:
   - apiVersion: v2
     appVersion: 2.3.0
-    created: "2026-02-01T21:10:49.471766+11:00"
+    created: "2026-02-02T12:40:42.090071+11:00"
     description: A Helm chart for watsonx_data installation
     digest: d9a8bf402a94feb45f68bd2bc8e6c1e2b82a9363e44145152e3f28f1b4ac331d
     name: watsonx-data
@@ -587,7 +705,7 @@ entries:
     version: 6.0.0+20251212.153400.146
   - apiVersion: v2
     appVersion: 2.3.0
-    created: "2026-02-01T21:10:49.47195+11:00"
+    created: "2026-02-02T12:40:42.090261+11:00"
     description: A Helm chart for watsonx_data installation
     digest: d9a8bf402a94feb45f68bd2bc8e6c1e2b82a9363e44145152e3f28f1b4ac331d
     name: watsonx-data
@@ -598,7 +716,7 @@ entries:
   watsonx-data-cluster-scoped:
   - apiVersion: v2
     appVersion: 2.3.0
-    created: "2026-02-01T21:10:49.472162+11:00"
+    created: "2026-02-02T12:40:42.09038+11:00"
     description: A Helm chart for watsonx_data installation
     digest: 06b83b6879c5b296c8e1ecf509823ef437ae2ce64a02494eb17848bf9f93da92
     name: watsonx-data-cluster-scoped
@@ -608,7 +726,7 @@ entries:
     version: 6.0.0+20251212.153400.146
   - apiVersion: v2
     appVersion: 2.3.0
-    created: "2026-02-01T21:10:49.472285+11:00"
+    created: "2026-02-02T12:40:42.090497+11:00"
     description: A Helm chart for watsonx_data installation
     digest: 06b83b6879c5b296c8e1ecf509823ef437ae2ce64a02494eb17848bf9f93da92
     name: watsonx-data-cluster-scoped
@@ -619,7 +737,7 @@ entries:
   watsonx-orchestrate:
   - apiVersion: v2
     appVersion: 7.0.0
-    created: "2026-02-01T21:10:49.472658+11:00"
+    created: "2026-02-02T12:40:42.09087+11:00"
     digest: e6d3c07fc77fcb9a64342f2cf4414e65a59e0e14c673dd4f63c81d522c5bba67
     name: watsonx-orchestrate
     type: application
@@ -628,7 +746,7 @@ entries:
     version: 7.0.0+20251127.065706.9761
   - apiVersion: v2
     appVersion: 7.0.0
-    created: "2026-02-01T21:10:49.473249+11:00"
+    created: "2026-02-02T12:40:42.09125+11:00"
     digest: ede1ff2aaedab1ac4be22224cb263e38ab93fbb09a1ccbb6fa3b1562994ba4e8
     name: watsonx-orchestrate
     type: application
@@ -637,7 +755,7 @@ entries:
     version: 7.0.0+20251209.173944.10066
   - apiVersion: v2
     appVersion: 7.0.0
-    created: "2026-02-01T21:10:49.473624+11:00"
+    created: "2026-02-02T12:40:42.091621+11:00"
     digest: ede1ff2aaedab1ac4be22224cb263e38ab93fbb09a1ccbb6fa3b1562994ba4e8
     name: watsonx-orchestrate
     type: application
@@ -647,7 +765,7 @@ entries:
   watsonx-orchestrate-cluster-scoped:
   - apiVersion: v2
     appVersion: 7.0.0
-    created: "2026-02-01T21:10:49.474872+11:00"
+    created: "2026-02-02T12:40:42.092988+11:00"
     digest: 47005ee47de8647bc54e66d93828bf7e17e4e265f24d9c3a877a25eb4079b5ba
     name: watsonx-orchestrate-cluster-scoped
     type: application
@@ -656,7 +774,7 @@ entries:
     version: 7.0.0+20251127.065706.9761
   - apiVersion: v2
     appVersion: 7.0.0
-    created: "2026-02-01T21:10:49.476179+11:00"
+    created: "2026-02-02T12:40:42.094016+11:00"
     digest: b0a2c08d8bb73c565d76868dea1d61b91fde47eaea8a784d93dc0d3c386e9468
     name: watsonx-orchestrate-cluster-scoped
     type: application
@@ -665,7 +783,7 @@ entries:
     version: 7.0.0+20251209.173944.10066
   - apiVersion: v2
     appVersion: 7.0.0
-    created: "2026-02-01T21:10:49.477536+11:00"
+    created: "2026-02-02T12:40:42.095387+11:00"
     digest: b0a2c08d8bb73c565d76868dea1d61b91fde47eaea8a784d93dc0d3c386e9468
     name: watsonx-orchestrate-cluster-scoped
     type: application
@@ -675,7 +793,7 @@ entries:
   wml:
   - apiVersion: v2
     appVersion: 5.3.0
-    created: "2026-02-01T21:10:49.477704+11:00"
+    created: "2026-02-02T12:40:42.09555+11:00"
     description: CPD Watson machine learning Service Helm chart for operator
     digest: bcc01ccd2a1434b12d7710657fb35c5de659a40d52b52e0ad5708f1372b2d1dc
     name: wml
@@ -683,10 +801,20 @@ entries:
     urls:
     - https://howard-luo.github.io/non-olm-cp4d-gitops-530/repos/wml-12.0.0+20251124.092058.329.tgz
     version: 12.0.0+20251124.092058.329
+  - apiVersion: v2
+    appVersion: 5.3.0
+    created: "2026-02-02T12:40:42.095708+11:00"
+    description: CPD Watson machine learning Service Helm chart for operator
+    digest: 2be6031846394e5be00bca3a3a4c48d6bd230a5395b93ca5c8f2e0261e89e9ba
+    name: wml
+    type: application
+    urls:
+    - https://howard-luo.github.io/non-olm-cp4d-gitops-530/repos/wml-12.0.0+20251201.131555.330.tgz
+    version: 12.0.0+20251201.131555.330
   wml-cluster-scoped:
   - apiVersion: v2
     appVersion: 5.3.0
-    created: "2026-02-01T21:10:49.477796+11:00"
+    created: "2026-02-02T12:40:42.095801+11:00"
     description: CPD Watson machine learning Service Helm chart for operator
     digest: eac37d58955aad89962c7a84be46ccd76eba148d6973dbadd15a37f8ca4ae2b0
     name: wml-cluster-scoped
@@ -694,10 +822,20 @@ entries:
     urls:
     - https://howard-luo.github.io/non-olm-cp4d-gitops-530/repos/wml-cluster-scoped-12.0.0+20251124.092058.329.tgz
     version: 12.0.0+20251124.092058.329
+  - apiVersion: v2
+    appVersion: 5.3.0
+    created: "2026-02-02T12:40:42.095892+11:00"
+    description: CPD Watson machine learning Service Helm chart for operator
+    digest: 77bee50c4206fe5bf669f73cc763cbab07d44a6270d8b4e49d928532d379ce35
+    name: wml-cluster-scoped
+    type: application
+    urls:
+    - https://howard-luo.github.io/non-olm-cp4d-gitops-530/repos/wml-cluster-scoped-12.0.0+20251201.131555.330.tgz
+    version: 12.0.0+20251201.131555.330
   ws:
   - apiVersion: v2
     appVersion: 12.0.0
-    created: "2026-02-01T21:10:49.477959+11:00"
+    created: "2026-02-02T12:40:42.096054+11:00"
     description: CPD Watson Studio Helm chart for operator
     digest: 6bfcb5727fdfdd8ebf7a6feba2b88ccd9947baa27b173cf893584f883c57a07a
     name: ws
@@ -705,10 +843,20 @@ entries:
     urls:
     - https://howard-luo.github.io/non-olm-cp4d-gitops-530/repos/ws-12.0.0+20251121.170036.55.tgz
     version: 12.0.0+20251121.170036.55
+  - apiVersion: v2
+    appVersion: 12.0.0
+    created: "2026-02-02T12:40:42.096205+11:00"
+    description: CPD Watson Studio Helm chart for operator
+    digest: 50b875cc91ba066cd99587940f736c53d5bb75962a002689ff7ddb844bc4e6ca
+    name: ws
+    type: application
+    urls:
+    - https://howard-luo.github.io/non-olm-cp4d-gitops-530/repos/ws-12.0.0+20251125.183217.56%20%281%29.tgz
+    version: 12.0.0+20251125.183217.56
   ws-cluster-scoped:
   - apiVersion: v2
     appVersion: 12.0.0
-    created: "2026-02-01T21:10:49.478048+11:00"
+    created: "2026-02-02T12:40:42.096313+11:00"
     description: CPD WS Helm chart for operator
     digest: 12c302fe127fc37811b318b660b14580ef483af899f39252adefc986e868a85b
     name: ws-cluster-scoped
@@ -716,10 +864,20 @@ entries:
     urls:
     - https://howard-luo.github.io/non-olm-cp4d-gitops-530/repos/ws-cluster-scoped-12.0.0+20251121.170036.55.tgz
     version: 12.0.0+20251121.170036.55
+  - apiVersion: v2
+    appVersion: 12.0.0
+    created: "2026-02-02T12:40:42.096404+11:00"
+    description: CPD WS Helm chart for operator
+    digest: 9ac8203e3556987360e2466de1763e3074bfc97f10963fecc2716fd716eada10
+    name: ws-cluster-scoped
+    type: application
+    urls:
+    - https://howard-luo.github.io/non-olm-cp4d-gitops-530/repos/ws-cluster-scoped-12.0.0+20251125.183217.56.tgz
+    version: 12.0.0+20251125.183217.56
   ws-runtimes:
   - apiVersion: v2
     appVersion: 12.0.0
-    created: "2026-02-01T21:10:49.47827+11:00"
+    created: "2026-02-02T12:40:42.096623+11:00"
     description: Watson Studio runtimes chart
     digest: 99f1975c1262157d75f43f841df9789298de2ec0578bc77ec6bd7caefd0eadd1
     icon: data:image/png;base64,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
@@ -729,10 +887,22 @@ entries:
     urls:
     - https://howard-luo.github.io/non-olm-cp4d-gitops-530/repos/ws-runtimes-12.0.0+20251120.153644.24.tgz
     version: 12.0.0+20251120.153644.24
+  - apiVersion: v2
+    appVersion: 12.0.0
+    created: "2026-02-02T12:40:42.097204+11:00"
+    description: Watson Studio runtimes chart
+    digest: 093ef9051bac242428e9df0e444195f303ff73ea59707c6f24c562c37f798856
+    icon: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAzCAYAAADsBOpPAAAABmJLR0QA/wD/AP+gvaeTAAAGXklEQVRo3u1aC2xTVRiusDEYb5lzTNSNtfd2FJcI+AATMh1K9l5n6iPi2AouMTrZpL33dkQoUTCYQHRBcInbkpkQHBoJImKcIeIwKGJEEI1xkgxQwgZbu47HBtTv707h7nrb3ZZ21MSbfDmPe87/f/c//3n9rU4XQ48gCDOAHEp1sf7Y7eJqQRAHAC+lKNfGLFlRFBcwonJcg6UfjlXr1qoQBiQx6sq9zuw4T236ne6VXJJXp7tNG2GpXI0wPqQsYKfKysrJFRUVgtVqfQ356VoU9Uj3Te2VuKd7Ra4O+AHoAbwyXAM60Wa/R+LWu0RDvteZNlYpx2azjQfB4wrCx5xOZ2JA5RVW6wHA68OyZX9UVVUlBGrrdvCPuCWuGWQuKghqQZdb5Da5HZxRLlOSpKnw5XVAC1zhjerq6ikByZaXl6dcJ8sAS89TtnNJGXqPyO0Og6Qarvo+2paRHLLfWSyW0SB5Uka4m1zkhl/qRkHBWuByhMjKcR5GKAuZdNny5Vnw4V0guwfWne+v7xT4iRC6MwpEh0Lg6r2Vc+NvasZ77KYUCPtVo9ILQDtwnE1AwPA7iHQg369FhlvgPvdW6RPCInvOqZ8EIT8GEH4SRLYBL9MEpA8LutRZdKN7bHw6VopFIOVg86A7gKW3kwuGtpZCATq3KoSd9oiGDX0CPy8i6zWG3yMaF0NmA2T3DrG0yG0MzRUkbuWNLzYc9Qjc816naUy0Npvu6rQpbpEXoO+v6+u3xD+mqbPbYeSYP2L28ivI2iO1RZ+xZY3HJuOE7ktwmxNnnaYJw3byrQjYmTD0qbfqbNFn189hE3j1MNbljHCBrXQeuNUHInITrDI7vM7UwNuzS+Ae1HpgGTEXqc2crfv/CeEpLS2dXlhY+MR/hnBxcfFLQOtNC8JX10KQmfJFRUX3A+vl71HeWlJSksbyS9A+F6kV2I38e3iXwQgtQt3rCpISsBj1jwNtwCmgnsrs8DUOeQfQAmyALN/REufhUdQO8k1It5nN5kw5oT1EmuVLgRMKwgN4/wDLbwY6QKKJEaRyJwROQ5t05K8iNTJDJKHcT8ry8vLuRft3gaOos6COY6Ta0E5E/d3Ir0H+M5neK8ABvKsh+WERRroJ5cM62YqC8iESyvJ7/SOEtJIIydqtkLsE8nny9yQT5b+BVPYxA8Az/3KJEC28EflGpcuQpRkJMw07nbORfkWuE4SwhLrLwHk54BZzWX9vfn7+7KCEaRaj3OV/l52dPZYNs5zwdsUc2EXDytrHEWGUn0LaDcUTZARfoY+Q9asC9gW6WBBh9JkVlDCWnhnkOyg/iZtHPE0iRniOnzDgJitQuaCgIAdlD/mkjMha1J0Gtij0LGXW9x2maCKj3As8528DOclaCH8NJTaZQhF1l4gIOqwiH5VbmD4Q2E+TDfgT74oVFjfSRwK8wmqTUXeE5JLryVaW35g7dPlHjxFuB/RqhNvR8FnF1T+ehlelLRFuYEJVj50024GdgZZRmlAqS2uimr4hDy01jEAH+aqWNVtOWMXvxkHxm2R5TJaZEd95IHgh+RuIp4TQx4JhVL3p5ubmTsL7T1X9LtKPy55piKVtnO52PXZ9RpDzsH4+TvqvxgbZ7Dgc4DfjBjQt+I1D4NooIhP04Bzlp9ehvwNkv8QB/u3h73SicQGFkSi+gMtnzohaFdsydC6F7jMUg6MoqLaLKIJ1smv3J3QTiTZRt91QAHc86NeLC/CSEPwnNRGdflHEJb5xS7zVVWO6PVJEL4oz70FIoYZFi+S6Pg5LGDqeUonO9PuCLAK3xhfJGW5SyJ4Lq7i73AJf5BH4t2DN71j8WBH54b8Ne/7QBRBCzmmIiyHsxB8GvkC+BWSaBuPHhh2+yYNgDN71aZBzLBQDqEfZsQ6SoKhHL0XDXoroR8TXBkOu/EdRInuFYnZRiTCRz6pMxrBBfuxyGB6K8g5kGoNl7wXgULg/FdDwI/hXHJGgTUNDw0RgXWNj489IjyDd0tzcnBwwBjYYvGtVhkwVOEsxOwy9jeLEEbNeXV1dAggeBLwKdNTX1ycNt/dTANFj47OwND0KKy7EFjtL824VzgNiL6qQ9eOdmIvKgNSHQQj/FHOE4bPNQQh/H4uEzYEINzU1xebfAUDsfRXC+2hCxmyEEZYuahx8PkC+HDfcuFjh9g/uhEygcFGVYwAAAABJRU5ErkJggg==
+    kubeVersion: '>= 1.24'
+    name: ws-runtimes
+    type: application
+    urls:
+    - https://howard-luo.github.io/non-olm-cp4d-gitops-530/repos/ws-runtimes-12.0.0+20251208.165327.26.tgz
+    version: 12.0.0+20251208.165327.26
   ws-runtimes-cluster-scoped:
   - apiVersion: v2
     appVersion: 12.0.0
-    created: "2026-02-01T21:10:49.478428+11:00"
+    created: "2026-02-02T12:40:42.097507+11:00"
     description: Watson Studio runtimes cluster scoped resources chart
     digest: 5ae06824bcc5beb5d13ca667d21d08095762ff0364d38627610fd1bb655da163
     icon: data:image/png;base64,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
@@ -741,10 +911,21 @@ entries:
     urls:
     - https://howard-luo.github.io/non-olm-cp4d-gitops-530/repos/ws-runtimes-cluster-scoped-12.0.0+20251120.153644.24.tgz
     version: 12.0.0+20251120.153644.24
+  - apiVersion: v2
+    appVersion: 12.0.0
+    created: "2026-02-02T12:40:42.097666+11:00"
+    description: Watson Studio runtimes cluster scoped resources chart
+    digest: cb56f1541c34b9e28a7f58328abf20bc72e1fe36bb53e5eed1ff77ea0266ff7b
+    icon: data:image/png;base64,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
+    name: ws-runtimes-cluster-scoped
+    type: application
+    urls:
+    - https://howard-luo.github.io/non-olm-cp4d-gitops-530/repos/ws-runtimes-cluster-scoped-12.0.0+20251208.165327.26.tgz
+    version: 12.0.0+20251208.165327.26
   zen:
   - apiVersion: v2
     appVersion: 6.3.0
-    created: "2026-02-01T21:10:49.478687+11:00"
+    created: "2026-02-02T12:40:42.097929+11:00"
     description: A Helm chart for Kubernetes
     digest: 8c24d4322e94cfbb2e90cbb3a0d1f78fa18755adb3fcfbf92bb5dc7e90bc69c3
     name: zen
@@ -752,10 +933,20 @@ entries:
     urls:
     - https://howard-luo.github.io/non-olm-cp4d-gitops-530/repos/zen-6.3.0+20251120.181620.331.tgz
     version: 6.3.0+20251120.181620.331
+  - apiVersion: v2
+    appVersion: 6.3.0
+    created: "2026-02-02T12:40:42.098184+11:00"
+    description: A Helm chart for Kubernetes
+    digest: b244c72dde65e74e4d25ca34fd7b1236cdd90e93b2f4bbc9082994f68766b841
+    name: zen
+    type: application
+    urls:
+    - https://howard-luo.github.io/non-olm-cp4d-gitops-530/repos/zen-6.3.0+20251203.153430.336.tgz
+    version: 6.3.0+20251203.153430.336
   zen-cluster-scoped:
   - apiVersion: v2
     appVersion: 6.3.0
-    created: "2026-02-01T21:10:49.478809+11:00"
+    created: "2026-02-02T12:40:42.098293+11:00"
     description: A Helm chart for Kubernetes
     digest: cd38a7fba19f193383cba6744a62a38a2b998de08f8c5fb3f2d5a11b35e94c15
     name: zen-cluster-scoped
@@ -763,4 +954,14 @@ entries:
     urls:
     - https://howard-luo.github.io/non-olm-cp4d-gitops-530/repos/zen-cluster-scoped-6.3.0+20251122.162557.333.tgz
     version: 6.3.0+20251122.162557.333
-generated: "2026-02-01T21:10:49.444738+11:00"
+  - apiVersion: v2
+    appVersion: 6.3.0
+    created: "2026-02-02T12:40:42.098392+11:00"
+    description: A Helm chart for Kubernetes
+    digest: 208fea0be1b126674a228e2d7f1b0498cee84c64a5f48a67362ee49efa69b11b
+    name: zen-cluster-scoped
+    type: application
+    urls:
+    - https://howard-luo.github.io/non-olm-cp4d-gitops-530/repos/zen-cluster-scoped-6.3.0+20251203.153430.336.tgz
+    version: 6.3.0+20251203.153430.336
+generated: "2026-02-02T12:40:42.062197+11:00"

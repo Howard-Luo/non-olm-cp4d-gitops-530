@@ -20,7 +20,7 @@ spec:
   source:
     path: ''
     repoURL: https://howard-luo.github.io/non-olm-cp4d-gitops-530/repos
-    targetRevision: 12.0.0+20251122.012657.332
+    targetRevision: 12.0.0+20251229.152017.337
     chart: ccs
     helm:
       valuesObject:

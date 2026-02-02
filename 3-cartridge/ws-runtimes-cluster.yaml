@@ -14,7 +14,7 @@ spec:
   source:
     path: ''
     repoURL: https://howard-luo.github.io/non-olm-cp4d-gitops-530/repos
-    targetRevision: 12.0.0+20251120.153644.24
+    targetRevision: 12.0.0+20251208.165327.26
     chart: ws-runtimes-cluster-scoped
     helm:
       valuesObject:

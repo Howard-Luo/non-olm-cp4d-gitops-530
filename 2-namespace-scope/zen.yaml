@@ -20,7 +20,7 @@ spec:
   source:
     path: ''
     repoURL: https://howard-luo.github.io/non-olm-cp4d-gitops-530/repos
-    targetRevision: 6.3.0+20251120.181620.331
+    targetRevision: 6.3.0+20251203.153430.336
     chart: zen
     helm:
       valuesObject:
@@ -32,8 +32,8 @@ spec:
           fileStorageClass: ocs-external-storagecluster-cephfs
           imagePullPrefix: icr.io
           imagePullSecret: ibm-entitlement-key
-          installConfigImageDigest: sha256:53f6b5487363e47f00ae3879e861062a460df0f6ffab57ea077da34a1b678563
-          installConfigImageName: cpopen/cpd/olm-utils-v4
+          installConfigImageDigest: sha256:9ac23ce4fcbd57be90855cfffb2e437ab9f88e4ef3fac33f049fcb08ca970885
+          installConfigImageName: cp/cpd/olm-utils-premium-v4
           releaseVersion: 5.3.0
   project: default
   syncPolicy:

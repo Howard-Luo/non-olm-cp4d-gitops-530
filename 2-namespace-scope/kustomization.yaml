@@ -8,3 +8,4 @@ resources:
   - rh-cm.yaml
   # - ibm-licensing.yaml
   - post-installation.yaml
+  - olm.yaml

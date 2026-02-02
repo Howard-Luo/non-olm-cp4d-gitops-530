@@ -5,7 +5,7 @@ resources:
   # - platform-config.yaml
   - postgresql.yaml
   - zen.yaml
-  - rh-cm.yaml
+  # - rh-cm.yaml
   # - ibm-licensing.yaml
   - post-installation.yaml
   - olm.yaml

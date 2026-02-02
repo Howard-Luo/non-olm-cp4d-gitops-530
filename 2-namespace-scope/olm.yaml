@@ -1,14 +1,14 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: post-installation-gitops
+  name: olm-gitops
   namespace: openshift-gitops
   labels:
     scope: namespace
     product: software-hub
 spec:
   destination:
-    namespace: gitops-instance
+    namespace: default
     server: https://kubernetes.default.svc
   source:
     repoURL: https://github.com/Howard-Luo/non-olm-cp4d-gitops-530.git

@@ -2,7 +2,6 @@ resources:
   - 1-cluster-scope
   - 2-namespace-scope
   # - 3-cartridge
-  - 8-olm
   ## Cartridges to be enable/disable
   # - 3-cartridge/planning-analytics
   # - 3-cartridge/openpages

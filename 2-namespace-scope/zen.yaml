@@ -30,10 +30,11 @@ spec:
           instanceNamespace: gitops-instance
           blockStorageClass: ocs-external-storagecluster-ceph-rbd
           fileStorageClass: ocs-external-storagecluster-cephfs
-          imagePullPrefix: icr.io
+          # imagePullPrefix: icr.io
           imagePullSecret: ibm-entitlement-key
           installConfigImageDigest: sha256:9ac23ce4fcbd57be90855cfffb2e437ab9f88e4ef3fac33f049fcb08ca970885
           installConfigImageName: cp/cpd/olm-utils-premium-v4
+          installConfigImagePullPrefix: cp.icr.io
           releaseVersion: 5.3.0
   project: default
   syncPolicy:
